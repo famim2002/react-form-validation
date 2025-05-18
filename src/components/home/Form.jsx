@@ -51,7 +51,7 @@ const Form = () => {
           </p>
           <input
             onChange={handleFullName}
-            className="text-2xl font-semibold bg-white w-md h-14 tracking-wide p-3 mx-15 my-5 border-2 rounded-xl focus:bg-violet-200 focus:text-stone-800 focus:border-dashed"
+            className="text-2xl font-semibold bg-white w-md h-14 tracking-wide p-3 mx-15 my-5 border-2 rounded-xl focus:bg-violet-200 focus:text-stone-800 focus:border-dotted"
             type="text"
             placeholder="Full Name"
           />
@@ -60,7 +60,7 @@ const Form = () => {
           </p>
           <input
             onChange={handleEmail}
-            className="text-2xl font-semibold  bg-white w-md h-14 tracking-wide p-3 mx-15 my-5 border-2 rounded-xl focus:bg-violet-200 focus:text-stone-800 focus:border-dashed"
+            className="text-2xl font-semibold  bg-white w-md h-14 tracking-wide p-3 mx-15 my-5 border-2 rounded-xl focus:bg-violet-200 focus:text-stone-800 focus:border-dotted"
             type="email"
             placeholder="E-mail"
           />
@@ -69,7 +69,7 @@ const Form = () => {
           </p>
           <input
             onChange={handlePassword}
-            className="text-2xl font-semibold  bg-white w-md h-14 tracking-wide p-3 mx-15 my-5 border-2 rounded-xl focus:bg-violet-200 focus:text-stone-800  focus:border-dashed"
+            className="text-2xl font-semibold  bg-white w-md h-14 tracking-wide p-3 mx-15 my-5 border-2 rounded-xl focus:bg-violet-200 focus:text-stone-800  focus:border-dotted"
             type="password"
             placeholder="Password"
           />
@@ -77,7 +77,7 @@ const Form = () => {
 
         <div className="w-30 h-12 border-2 text-center m-auto my-20 rounded-2xl transition-all hover:border-dashed">
           <button
-            className="text-2xl font-semibold text-stone-950 w-full h-full bg-stone-50 leading transition-all hover:text-black hover:bg-violet-200 hover:rounded-2xl active:bg-violet-400 "
+            className="text-2xl font-semibold text-stone-950 w-full h-full bg-stone-50 leading transition-all hover:text-black hover:bg-violet-200 hover:rounded-2xl active:bg-violet-600 "
             type="submit"
           >
             submit
